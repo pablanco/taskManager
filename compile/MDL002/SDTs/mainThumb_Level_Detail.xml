@@ -1,0 +1,50 @@
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<onlydefinition>True</onlydefinition>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>mainThumb_Level_DetailSdt</name>
+<camelname>mainThumb_Level_DetailSdt</camelname>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<fullname>mainThumb_Level_DetailSdt</fullname>
+<members>
+<member>
+<name>id</name>
+<camelname>Id</camelname>
+<type>[ 4,0,0 ]</type>
+<length>0</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member><member>
+<name>name</name>
+<camelname>Name</camelname>
+<type>[ 5,0,0 ]</type>
+<length>0</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member><member>
+<name>isOk</name>
+<camelname>IsOk</camelname>
+<type>[ 15,0,0 ]</type>
+<length>0</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member><member>
+<name>rsValue</name>
+<camelname>RsValue</camelname>
+<type>[ 5,0,0 ]</type>
+<length>0</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+</members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef></XRef>
+<Input>
+<Parm></Parm></Input></SdtSpec>

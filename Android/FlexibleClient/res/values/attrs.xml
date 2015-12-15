@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="gx_base_theme" format="enum">
+		<enum name="Dark" value="0" />
+		<enum name="Light" value="1" />
+		<enum name="LightWithDarkActionBar" value="2" />
+	</attr>
+
+    <attr name="colorAccentDialog" format="color|reference" />
+
+    <declare-styleable name="ImageGallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+
+    <!-- scrim insets -->
+    <declare-styleable name="ScrimInsetsFrameLayout">
+        <attr name="insetForeground" format="reference|color" />
+    </declare-styleable>
+
+    <style name="Widget.Design.ScrimInsetsFrameLayout" parent="">
+        <item name="insetForeground">#4000</item>
+    </style>
+
+    <!-- toolbar as action bar -->
+    <attr name="actionBarCustomTheme" format="reference" >
+    </attr>
+    <attr name="actionBarPopupCustomTheme" format="reference" >
+    </attr>
+
+</resources>

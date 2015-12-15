@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/viewinBrowser" android:title="@string/GXM_ViewInBrowser"></item>
+</menu>
+<!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/menu/menu_web.xml --><!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/res/menu/menu_web.xml -->

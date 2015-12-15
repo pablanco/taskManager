@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/assets"/></dataSet><dataSet config="release"><source path="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/build-types/release/assets"/></dataSet></merger>

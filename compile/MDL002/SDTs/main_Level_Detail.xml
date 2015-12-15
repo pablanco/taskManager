@@ -1,0 +1,17 @@
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<onlydefinition>True</onlydefinition>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>main_Level_DetailSdt</name>
+<camelname>main_Level_DetailSdt</camelname>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<fullname>main_Level_DetailSdt</fullname>
+<members>
+</members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef></XRef>
+<Input>
+<Parm></Parm></Input></SdtSpec>

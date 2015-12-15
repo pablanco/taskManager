@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':FlexibleClient')
+    compile files('libs/Android_Map_V2.0.4.jar')
+}

@@ -1,0 +1,280 @@
+{ 
+    "Styles" : [ { 
+        "Name" : "Application",
+        "DefaultClass" : true,
+        "background_image_mode" : "stretch",
+        "image_loading_indicator" : "False"
+    }, { 
+        "Name" : "Form",
+        "DefaultClass" : true,
+        "enter_effect" : "gx_default",
+        "close_effect" : "gx_default",
+        "call_type" : "gx_default",
+        "target_size" : "gx_default",
+        "target_width" : "100%%",
+        "target_height" : "100%%",
+        "content_size_change" : "gx_default"
+    }, { 
+        "Name" : "Attribute",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "ThemeLabelClassReference" : "TextBlock",
+        "Styles" : [ { 
+            "Name" : "AttributeSubtitle",
+            "ThemeLabelClassReference" : "TextBlockSubtitle"
+        }, { 
+            "Name" : "AttributeReadOnly",
+            "ThemeLabelClassReference" : "TextBlock"
+        }, { 
+            "Name" : "inputcategories",
+            "ThemeLabelClassReference" : "TextBlock"
+        }, { 
+            "Name" : "Inputform",
+            "margin_bottom" : "10dip",
+            "margin_top" : "10dip",
+            "background_color" : "#AF232345",
+            "color" : "#2A2A2A",
+            "ThemeLabelClassReference" : "TextBlock",
+            "padding_left" : "5dip"
+        }, { 
+            "Name" : "Inputtitle",
+            "margin_left" : "5dip",
+            "background_color" : "#FFFFFF",
+            "color" : "#2A2A2A",
+            "font_family" : "Roboto-Light.ttf",
+            "font_size" : "15dip",
+            "font_weight" : "bold",
+            "ThemeLabelClassReference" : "TextBlock"
+        }, { 
+            "Name" : "AttributeTitle",
+            "color" : "#2A2A2A",
+            "font_family" : "Roboto-Light.ttf",
+            "font_size" : "18dip",
+            "ThemeLabelClassReference" : "TextBlockTitle"
+        } ]
+    }, { 
+        "Name" : "Button",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "Styles" : [ { 
+            "Name" : "buttonform",
+            "border_style" : "Solid",
+            "border_color" : "#18BE9C",
+            "border_width" : "1dip",
+            "border_radius" : "5dip",
+            "margin_bottom" : "0dip",
+            "margin_left" : "8dip",
+            "margin_right" : "8dip",
+            "background_color" : "#FFFFFF",
+            "color" : "#18BE9C",
+            "font_size" : "17dip",
+            "font_weight" : "bold"
+        } ]
+    }, { 
+        "Name" : "Dashboard",
+        "DefaultClass" : true
+    }, { 
+        "Name" : "DashboardOption",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "Styles" : [ { 
+            "Name" : "DashboardOptionPanoramaItem"
+        } ]
+    }, { 
+        "Name" : "Grid",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "background_image_mode" : "stretch",
+        "sd_row_horizontal_line_separator" : "True"
+    }, { 
+        "Name" : "GridRow",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "background_image_mode" : "stretch",
+        "Styles" : [ { 
+            "Name" : "GridRowOdd"
+        }, { 
+            "Name" : "GridRowEven"
+        } ]
+    }, { 
+        "Name" : "Group",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "background_image_mode" : "stretch",
+        "sdmotion_max_horizontal" : "0",
+        "sdmotion_max_vertical" : "0"
+    }, { 
+        "Name" : "GroupSeparator",
+        "DefaultClass" : true
+    }, { 
+        "Name" : "HorizontalLine",
+        "DefaultClass" : true,
+        "Styles" : [ { 
+            "Name" : "MatrixLineSeparator"
+        } ]
+    }, { 
+        "Name" : "Image",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "image_loading_indicator" : "False",
+        "sdmotion_max_horizontal" : "0",
+        "sdmotion_max_vertical" : "0"
+    }, { 
+        "Name" : "Tab",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False"
+    }, { 
+        "Name" : "TabPage",
+        "DefaultClass" : true,
+        "Styles" : [ { 
+            "Name" : "TabPageSelected"
+        }, { 
+            "Name" : "TabPageUnselected"
+        } ]
+    }, { 
+        "Name" : "Table",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "background_image_mode" : "stretch",
+        "sd_row_horizontal_line_separator" : "False",
+        "sdmotion_max_horizontal" : "0",
+        "sdmotion_max_vertical" : "0",
+        "Styles" : [ { 
+            "Name" : "MatrixCell"
+        }, { 
+            "Name" : "MatrixSelectedCell"
+        }, { 
+            "Name" : "MatrixAxisTable"
+        }, { 
+            "Name" : "MatrixEvenRowTable"
+        }, { 
+            "Name" : "MatrixOddRowTable"
+        }, { 
+            "Name" : "MatrixSelectedRowTable"
+        }, { 
+            "Name" : "TableDetail"
+        }, { 
+            "Name" : "TableSection"
+        }, { 
+            "Name" : "TableTableDetailMain",
+            "border_style" : "Solid",
+            "border_color" : "#D8D8D8",
+            "border_width" : "1dip",
+            "border_radius" : "1dip",
+            "margin_bottom" : "5dip",
+            "margin_left" : "5dip",
+            "margin_right" : "5dip",
+            "margin_top" : "2dip",
+            "background_color" : "#FFFFFF"
+        }, { 
+            "Name" : "Tablebackground",
+            "background_color" : "#E1E1E1"
+        }, { 
+            "Name" : "Tableforms",
+            "margin_bottom" : "20dip",
+            "margin_left" : "10dip",
+            "margin_right" : "10dip"
+        }, { 
+            "Name" : "Tablemenu",
+            "background_color" : "#F3F3F3"
+        } ]
+    }, { 
+        "Name" : "TextBlock",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "Styles" : [ { 
+            "Name" : "TextBlockTitle"
+        }, { 
+            "Name" : "TextBlockSubtitle"
+        }, { 
+            "Name" : "TextBlockApplicationTitle"
+        }, { 
+            "Name" : "TextBlockBackButton"
+        }, { 
+            "Name" : "TextBlockSectionTitle"
+        }, { 
+            "Name" : "CalendarLabel",
+            "font_size" : "34dip"
+        }, { 
+            "Name" : "inputCheck",
+            "border_style" : "Solid",
+            "border_color" : "#D8D8D8",
+            "border_width" : "1dip",
+            "border_radius" : "1dip"
+        }, { 
+            "Name" : "inputcommon",
+            "color" : "#2A2A2A",
+            "font_family" : "Roboto-Light.ttf",
+            "font_size" : "10dip"
+        } ]
+    }, { 
+        "Name" : "Matrix",
+        "DefaultClass" : true,
+        "YAxisTitleLabelClassReference" : "MatrixLabel",
+        "YAxisDescriptionLabelClassReference" : "MatrixLabel",
+        "XAxisLabelClassReference" : "MatrixLabel",
+        "CellTableClassReference" : "MatrixCell",
+        "SelectedCellTableClassReference" : "MatrixSelectedCell",
+        "XAxisTableClassReference" : "MatrixAxisTable",
+        "YAxisTableClassReference" : "MatrixAxisTable",
+        "RowTableClassReferenceEven" : "MatrixRowTable",
+        "RowTableClassReferenceOdd" : "MatrixRowTable",
+        "SelectedRowTableClassReference" : "MatrixRowTable",
+        "showHorizontalRules" : "True",
+        "HorizontalLineSeparatorClassReference" : "MatrixLineSeparator",
+        "VerticalLineSeparatorClassReference" : "MatrixLineSeparator",
+        "showVerticalRules" : "True",
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "background_image_mode" : "stretch"
+    }, { 
+        "Name" : "MatrixAxisLabel",
+        "DefaultClass" : true,
+        "VerticalAlignment" : "Default",
+        "HorizontalAlignment" : "Default",
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False"
+    }, { 
+        "Name" : "Calendar",
+        "DefaultClass" : true,
+        "ThemeTransformationReference" : "(none)",
+        "ThemeAnimated" : "False",
+        "background_image_mode" : "stretch",
+        "sdmotion_max_horizontal" : "0",
+        "sdmotion_max_vertical" : "0"
+    }, { 
+        "Name" : "SDPageController",
+        "DefaultClass" : true,
+        "SDPageControllerBackgroundColor" : "#000000",
+        "SDPageIndicatorSelectedColor" : "#FFFFFF",
+        "SDPageIndicatorUnselectedColor" : "#777777"
+    }, { 
+        "Name" : "SDMapPinImage",
+        "DefaultClass" : true,
+        "PinHeight" : "0",
+        "PinWidth" : "0"
+    }, { 
+        "Name" : "ApplicationBars",
+        "DefaultClass" : true,
+        "background_color" : "#18BE9C",
+        "status_bar_color" : "#24D5B2",
+        "Styles" : [ { 
+            "Name" : "ApplicationBarsHeaderRow"
+        } ]
+    } ],
+    "Transformations" : [ ],
+    "Colors" : [ { 
+        "Name" : "Key Color",
+        "Color" : "#94C641"
+    } ]
+}

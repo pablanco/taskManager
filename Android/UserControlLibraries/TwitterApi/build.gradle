@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':FlexibleClient')
+    compile 'org.twitter4j:twitter4j-core:4.0.3'
+}

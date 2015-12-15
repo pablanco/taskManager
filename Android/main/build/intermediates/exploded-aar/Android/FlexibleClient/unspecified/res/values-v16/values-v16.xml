@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values-v16/config.xml -->
+    <eat-comment/>
+    <bool name="animateLayoutChanges">true</bool>
+</resources>

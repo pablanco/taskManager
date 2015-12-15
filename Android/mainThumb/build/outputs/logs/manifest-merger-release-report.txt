@@ -1,0 +1,258 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:2:1-38:12
+	xmlns:android
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:3:5-47
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:4:5-35
+application
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:6:5-37:19
+MERGED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:13:5-71:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:7:42-74
+	android:icon
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:7:9-41
+	android:theme
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:6:50-89
+	android:hardwareAccelerated
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:6:90-124
+	android:name
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:6:18-49
+activity#com.artech.nuevaprueba.mainthumb.Main
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:9:9-15:20
+	android:label
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:9:40-72
+	android:theme
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:10:19-58
+	android:name
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:9:19-39
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:11:13-14:29
+action#android.intent.action.MAIN
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:12:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:13:17-77
+	android:name
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:13:27-74
+activity#com.artech.controls.maps.googlev2.LocationPickerActivity
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:17:9-93
+MERGED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:63:9-93
+	android:name
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:17:19-90
+provider#com.artech.nuevaprueba.mainthumb.AppEntityDataProvider
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:21:9-189
+	android:exported
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:21:89-113
+	android:authorities
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:21:114-186
+	android:name
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:21:19-88
+service#com.artech.nuevaprueba.mainthumb.AppEntityService
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:24:9-108
+	android:enabled
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:24:18-40
+	android:name
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:24:41-105
+provider#com.artech.android.api.SharingApiFileProvider
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:27:3-35:14
+	android:grantUriPermissions
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:30:7-41
+	android:exported
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:31:7-31
+	android:authorities
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:29:7-74
+	android:name
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:28:7-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:32:7-34:50
+	android:resource
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:34:11-47
+	android:name
+		ADDED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml:33:11-61
+uses-sdk
+INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.makeramen:roundedimageview:2.0.1] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.0.1/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+		INJECTED from /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:11:22-78
+activity#com.artech.activities.GenexusActivity
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:16:9-24:20
+	android:windowSoftInputMode
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:20:13-73
+	android:screenOrientation
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:19:13-47
+	android:label
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:17:13-65
+meta-data#android.app.default_searchable
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:21:13-23:76
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:22:17-62
+	android:value
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:23:17-73
+activity#com.artech.activities.SearchStubActivity
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:25:9-39:20
+	android:exported
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:26:13-68
+intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.SEARCH
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:31:17-71
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:31:25-68
+category#android.intent.category.DEFAULT
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:33:27-73
+meta-data#android.app.searchable
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:36:13-38:54
+	android:resource
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:38:17-51
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:37:17-54
+activity#com.artech.activities.dashboard.DashboardActivity
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:40:9-42:48
+	android:label
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:41:13-77
+activity#com.artech.activities.WebViewActivity
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:43:9-46:20
+	android:label
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:45:13-48
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:44:13-65
+activity#com.artech.activities.VideoViewActivity
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:47:9-50:20
+	android:label
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:49:13-48
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:48:13-67
+activity#com.artech.application.Preferences
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:51:9-54:20
+	android:label
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:53:13-52
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:52:13-62
+activity#com.artech.activities.FiltersActivity
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:55:9-58:20
+	android:label
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:57:13-36
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:56:13-65
+activity#com.artech.activities.DetailFiltersActivity
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:59:9-62:20
+	android:label
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:61:13-43
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:60:13-71
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:64:9-67:64
+	android:configChanges
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:66:13-122
+	android:theme
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:67:13-61
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:65:13-65
+receiver#com.artech.android.notification.NotificationAlarm
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:69:9-86
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:69:19-83
+receiver#com.artech.android.api.LocationFusedProviderReceiver
+ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:70:9-89
+	android:name
+		ADDED from [Android:FlexibleClient:unspecified] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/AndroidManifest.xml:70:19-86
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:22:13-58
+	android:value
+		ADDED from [com.google.android.gms:play-services-base:7.0.0] /home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/AndroidManifest.xml:23:13-66

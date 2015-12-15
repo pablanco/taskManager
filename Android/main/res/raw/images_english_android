@@ -1,0 +1,16 @@
+{ 
+    "ResourcesLocation" : "Resources",
+    "Language" : "English",
+    "Theme" : "Android",
+    "Images" : [ { 
+        "Name" : "appicon",
+        "Type" : "I",
+        "Guid" : "da779c85-2cc0-4559-bb98-cc054a370e0e",
+        "Location" : "appicon.png"
+    },{ 
+        "Name" : "lunchimage",
+        "Type" : "I",
+        "Guid" : "d5883432-b77c-40c7-91f5-21219a04ce0f",
+        "Location" : "lunchimage.png"
+    }, {}]
+}

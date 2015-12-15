@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/pblanco/Escritorio/commandLine/templates/Android/m2Repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/gson-2.3.1-3cff70eda37fb4ba248bbfd9f29417192f2392db.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/internal_impl-22.2.1-51a592c2db3f111719b85cacd1512a6495ddd02d.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/commandLine/templates/Android/m2Repository/com/nineoldandroids/library/2.4.0/library-2.4.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/library-2.4.0-f38fa5b2de4066f10594e073e8357c388f29d392.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="76df8e5d83862f7a86dcc8dc9f7f4c5ed9572ef9">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-527c9734418b9b99bbe271fced68e2ff8af0f1d4.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-1540435624d4532220966591fb6d4bb3df78b2fb.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-d423fbead8c6b50d9e4f8ca04aff31067925d0fd.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-222a7c600a82806b35daee7a78f985361ecd462b.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/jars/libs/YouTubeAndroidPlayerApi-1.2.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/YouTubeAndroidPlayerApi-1.2.1-3ff37d2cada6b04898fc71397fd761e3c4410905.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-2280715f9a5a68a9841a7b5cc5837ae910f5a42b.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/jars/libs/sqldroid-0.3.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a1458c9a9d48437005817e4c1fccf963bea24d51">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/sqldroid-0.3.0-c735fe387d4df7af0ec9383a5912251352619f00.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/commandLine/templates/Android/m2Repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/support-annotations-22.2.1-66d0403477fa082ad41e96e7aefbe4f960426847.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="2abde49a8d53539fa902ab5b8d29698023b262dd">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-83bfe3b55537ce91e9e083c4792ff23139f24bbb.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/commandLine/templates/Android/m2Repository/com/squareup/picasso/picasso/2.5.2/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/picasso-2.5.2-51355aa739ae0b0fd500e83d96cefb44aeb85dda.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-0416cf4a64edb081d3849fa4d7aff3809f7f7f5e.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-2d1ce404903a670005deefddc068bb97129c720a.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/jars/libs/gxclassD.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="69d7480c554b38fc7e034f963ed4947fe8d20dec">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/gxclassD-607f6a6e0e9d0d8d0ad9971270496cae13260b09.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-2004a23264175ebc94a786cb9f91be8fe1a2d4fe.jar" />
+    </item>
+    <item
+        jar="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/mainThumb/build/intermediates/pre-dexed/release/classes-6282815dfa5d408ee1bb09e3afe7141e7133fce3.jar" />
+    </item>
+
+</items>

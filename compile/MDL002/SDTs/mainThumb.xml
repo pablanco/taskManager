@@ -1,0 +1,8 @@
+<WWSDSpec>
+<Section>
+<Name>Level.Detail</Name>
+<DataProviders>
+<DataProvider>mainThumb_Level_Detail_list</DataProvider> 
+<DataProvider>mainThumb_Level_Detail</DataProvider> 
+
+</DataProviders></Section></WWSDSpec>

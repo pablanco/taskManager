@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExportFile>
+  <KMW>
+    <MajorVersion>3</MajorVersion>
+    <MinorVersion>3</MinorVersion>
+    <Build>92780</Build>
+  </KMW>
+  <Source kb="17296727-f688-4495-a8d5-98df40a64191" username="DevXtend\Matias" UNCPath="\DevXtend\C$\Desarrollo\Light_Services">
+    <Version guid="28db03bb-af87-4d78-b5ba-4eaece775c98" name="nuevaPrueba" />
+  </Source>
+  <Actions />
+	<KnowledgeBase>
+	<Environments>
+	  <Environment guid="d92ac7ca-4d76-4432-b146-e17e9cfb41b5" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" checksum="070860cfa9f4be0960b0d4be8a79376a" server_checksum="" name=".Net Environment" type="00000000-0000-0000-0000-000000000002" description="">
+	    <Part type="eaa3cfa0-0001-0000-0000-b51c8ddab77d">
+	      <Generator>
+	        <Generator>15</Generator>
+	        <Name>Default</Name>
+	        <NameType>ecececec-dfe0-4a57-ae8f-c6e31b0dcbc0</NameType>
+	        <Guid>27a1d370-cf72-4c4c-b94f-81f5b79bdb9b</Guid>
+	        <Properties><Property><Name>IS_WEB_GEN</Name><Value>True</Value></Property></Properties>
+	      </Generator>
+	      <Generator>
+	        <Generator>26</Generator>
+	        <Name>SmartDevices</Name>
+	        <NameType>ecececec-dfe0-4a57-ae8f-c6e31b0dcbc0</NameType>
+	        <Guid>36133b5f-3649-40db-8be2-e348388666c5</Guid>
+	        <Properties><Property><Name>IS_WEB_GEN</Name><Value>True</Value></Property><Property><Name>ServicesURL</Name><Value>http://52.34.247.215/frameWorkExamples/taskManager/service/</Value></Property></Properties>
+	      </Generator>
+	      <Generator>
+	        <Generator>28</Generator>
+	        <Name>Android</Name>
+	        <NameType>ecececec-dfe0-4a57-ae8f-c6e31b0dcbc0</NameType>
+	        <Guid>d0592f0d-cb2c-4efa-952e-8fff6e387a63</Guid>
+	        <Properties><Property><Name>IS_WEB_GEN</Name><Value>True</Value></Property></Properties>
+	      </Generator>
+	      <Generator>
+	        <Generator>27</Generator>
+	        <Name>ObjectiveC</Name>
+	        <NameType>ecececec-dfe0-4a57-ae8f-c6e31b0dcbc0</NameType>
+	        <Guid>a67d3b49-fcb0-463f-8d3f-cf3e2a1cbf05</Guid>
+	        <Properties><Property><Name>IS_WEB_GEN</Name><Value>True</Value></Property></Properties>
+	      </Generator>
+	      <Generator>
+	        <Generator>31</Generator>
+	        <Name>Swift</Name>
+	        <NameType>ecececec-dfe0-4a57-ae8f-c6e31b0dcbc0</NameType>
+	        <Guid>6eb1c0aa-7a40-4fb6-9c5e-7e51958c9cc3</Guid>
+	        <Properties><Property><Name>IS_WEB_GEN</Name><Value>True</Value></Property></Properties>
+	      </Generator>
+	      <Properties />
+	    </Part>
+	    <Part type="dca3cfa0-0001-0000-0000-b51c8ddab77d">
+	      <DataStore>
+	        <Dbms>7</Dbms>
+	        <Name>Default</Name>
+	        <NameType>dcdcdcdc-dfe0-4a57-ae8f-c6e31b0dcbc0</NameType>
+	        <Guid>1767446b-768f-43cf-94ae-4350720f484d</Guid>
+	        <Properties><Property><Name>ACCESS_TECHNO</Name><Value>JDBC</Value></Property></Properties>
+	      </DataStore>
+	      <Properties />
+	    </Part>
+	    <Properties><Property><Name>UserInterface</Name><Value>Web</Value></Property><Property><Name>GeneratedLanguage</Name><Value>C#</Value></Property><Property><Name>DataSource</Name><Value>SQL Server</Value></Property><Property><Name>TargetPath</Name><Value>CSharpModel</Value></Property><Property><Name>StartupObject</Name><Value>c41989bf-cdc6-4cf9-980a-8dff22f1bfa8-main</Value></Property><Property><Name>Name</Name><Value>.Net Environment</Value></Property></Properties>
+	  </Environment>
+	</Environments>
+	</KnowledgeBase> 
+  
+  <Objects>
+	<Object parentGuid="00000000-0000-0000-0000-000000000000" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2015-07-20T19:58:39.0000000Z" checksum="09acb1094ca92da77a8f3070b2196598" fullyQualifiedName="WorkWithDevices" guid="d0f701a5-7288-3760-91b5-395d02d79889" name="WorkWithDevices" type="83476c1e-fa72-4229-9930-f51b954fca2d" description="Work With for Smart Devices">
+	  <Part type="3c89746e-54b1-441a-8f3f-97cc81be06bd">
+	    <Data Pattern="15cf49b5-fc38-4899-91b5-395d02d79889" Version="15.0.1"><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+	<Config>
+	  <Template />
+	  <Platforms>
+	    <Platform Name="Any Platform" Theme="c804fdbd-7c0b-440d-8527-4316c92649a6-Android" NavigationStyle="Default" DefaultLayoutOrientation="Portrait" Predefined="True" />
+	    <Platform Name="Any Phone" Size="Small" Predefined="True" BoundsName="Phone" MaximumShortestBound="599" />
+	    <Platform Name="Any Tablet 7&quot;" Size="Medium" Predefined="True" BoundsName="Tablet 7" MinimumShortestBound="600" MaximumShortestBound="719" />
+	    <Platform Name="Any Tablet 10&quot;" Size="Large" Predefined="True" BoundsName="Tablet 10" MinimumShortestBound="720" />
+	    <Platform Name="Any Android" OS="Android" Theme="c804fdbd-7c0b-440d-8527-4316c92649a6-Android" NavigationStyle="Default" DefaultLayoutOrientation="Portrait" Predefined="True" />
+	    <Platform Name="Android Phone" OS="Android" Size="Small" Predefined="True" BoundsName="Phone" MaximumShortestBound="599" />
+	    <Platform Name="Android Tablet 7&quot;" OS="Android" Size="Medium" Predefined="True" BoundsName="Tablet 7" MinimumShortestBound="600" MaximumShortestBound="719" />
+	    <Platform Name="Android Tablet 10&quot;" OS="Android" Size="Large" Predefined="True" BoundsName="Tablet 10" MinimumShortestBound="720" />
+	    <Platform Name="Any iOS" OS="iOS" Theme="c804fdbd-7c0b-440d-8527-4316c92649a6-Android" NavigationStyle="Default" DefaultLayoutOrientation="Portrait" Predefined="True" />
+	    <Platform Name="iPad" OS="iOS" Size="Large" Predefined="True" BoundsName="iPad" MinimumShortestBound="768" />
+	    <Platform Name="iPhone" OS="iOS" Size="Small" Predefined="True" BoundsName="iPhone" MaximumShortestBound="767" />
+	    <Platform Name="iPhone 3.5&quot;" OS="iOS" Size="Small" Predefined="True" BoundsName="iPhone 3.5&quot;" MinimumShortestBound="320" MaximumShortestBound="320" MinimumLongestBound="480" MaximumLongestBound="480" />
+	    <Platform Name="iPhone 4&quot;" OS="iOS" Size="Small" Predefined="True" BoundsName="iPhone 4&quot;" MinimumShortestBound="320" MaximumShortestBound="320" MinimumLongestBound="568" MaximumLongestBound="568" />
+	    <Platform Name="iPhone 4.7&quot;" OS="iOS" Size="Small" Predefined="True" BoundsName="iPhone 4.7&quot;" MinimumShortestBound="375" MaximumShortestBound="375" />
+	    <Platform Name="iPhone 5.5&quot;" OS="iOS" Size="Small" Predefined="True" BoundsName="iPhone 5.5&quot;" MinimumShortestBound="414" MaximumShortestBound="414" />
+	    <Platform Name="Any Windows" OS="Windows" Theme="c804fdbd-7c0b-440d-8527-4316c92649a6-SimpleWin8" Predefined="True" />
+	    <Platform Name="Windows Phone" OS="Windows" Size="Small" Theme="c804fdbd-7c0b-440d-8527-4316c92649a6-SimpleWinPhone" Predefined="True" BoundsName="Phone" MaximumShortestBound="599" />
+	    <Platform Name="Windows Tablet" OS="Windows" Size="Medium" Predefined="True" BoundsName="Tablet" MinimumShortestBound="600" MaximumShortestBound="719" />
+	    <Platform Name="Windows Desktop" OS="Windows" Size="Large" Predefined="True" BoundsName="Desktop" MinimumShortestBound="720" />
+	  </Platforms>
+	  <Labels />
+	  <StandardActions>
+	    <Insert Caption="GXM_insert" />
+	    <Update Caption="GXM_update" />
+	    <Delete Caption="GX_BtnDelete" />
+	    <Search Caption="GX_BtnSearch" />
+	  </StandardActions>
+	</Config>]]></Data>
+	        <Properties />
+	  </Part>
+	  <Properties><Property><Name>Name</Name><Value>WorkWithDevices</Value></Property><Property><Name>Description</Name><Value>Work With for Smart Devices</Value></Property></Properties>
+	</Object>  
+       
+
+		   	<Object parentGuid="d6831494-9e3c-4eb7-9272-ae421e95e4d4" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2014-07-24T19:19:17.0000000Z" checksum="1b743a8e39d04d821ec72e6702191567" fullyQualifiedName="mainThumb" guid="d6831494-9e3c-4eb7-9272-ae421e95e4d4" name="mainThumb" type="d82625fd-5892-40b0-99c9-5c8559c197fc" description="mainThumb">
+		   	  <Part type="b4378a97-f9b2-4e05-b2f8-c610de258402">        
+		   	    <PatternPart type="a51ced48-7bee-0001-ab12-04e9e32123d1">
+		   	      <Data Pattern="15cf49b5-fc38-4899-91b5-395d02d79889" Version="10.3.6"><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+		   			<instance>
+		   			  <level id="14370231-8720-45d2-8c5b-38571d3c73ae" name="Level">
+		   			  	<detail variables="&lt;Variables&gt;&lt;Variable Id=&quot;1&quot; Name=&quot;id&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;id&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;bas:Numeric&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;NUMERIC&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;2&quot; Name=&quot;name&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;name&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;bas:Character&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;CHARACTER&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;3&quot; Name=&quot;httpClient&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;httpClient&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;ext:HttpClient&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;HTTPCLIENT&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;4&quot; Name=&quot;mainThumb_struct&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;mainThumb_struct&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;sdt:mainThumb_struct&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;GX_SDT&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;5&quot; Name=&quot;mainThumb_structItem&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;mainThumb_structItem&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;sdt:mainThumb_struct.mainThumb_structItem&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;GX_SDT&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;6&quot; Name=&quot;isOk&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;isOk&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;bas:Boolean&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;BOOLEAN&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;8&quot; Name=&quot;mainThumb_sdtError&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;mainThumb_sdtError&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;sdt:mainThumb_sdtError&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;GX_SDT&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;9&quot; Name=&quot;rsValue&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;rsValue&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;bas:Character&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Length&lt;/Name&gt;&lt;Value&gt;100&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;CHARACTER&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;/Variables&gt;" events="Event list.load&#xA; &#x9;Composite &#xA;&#x9; &#x9;&amp;httpClient.Execute(&apos;GET&apos;,&quot;http://52.34.247.215/frameWorkExamples/taskManager/crud/getTask.php&quot;)&#xA;&#x9; &#x9;&amp;mainThumb_struct.FromJson(&amp;httpClient.ToString())&#xA;&#x9; &#x9;for &amp;mainThumb_structItem in &amp;mainThumb_struct&#xA;&#x9; &#x9;&#x9;&amp;id = &amp;mainThumb_structItem.ID&#xA;&#x9; &#x9;&#x9;&amp;name = &amp;mainThumb_structItem.TASK&#xA;&#x9; &#x9;&#x9;load&#xA;&#x9; &#x9;endfor&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;Event &apos;changeViewType&apos;&#xA; &#x9;Composite &#xA;&#x9; &#x9;msg(&quot;cambia&quot;)&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;Event statusLabel.Tap&#xA; &#x9;Composite &#xA;&#x9; &#x9;msg(&quot;changeStatus&quot;)&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;Event table_grid.Tap&#xA; &#x9;Composite &#xA;&#x9; &#x9;TaskDetail(&amp;id,&amp;name,&amp;status)&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;Event table_grid.LongTap&#xA; &#x9;Composite &#xA;&#x9; &#x9;&amp;isOk=Interop.Confirm(&quot;Do you want to delete this task ?&quot;)&#xA;&#x9; &#x9;if &amp;isOk = true&#xA;&#x9; &#x9;mainThumb_delete(&amp;id,&amp;rsValue)&#xA;&#x9; &#x9;msg(&amp;rsValue)&#xA;&#x9; &#x9;refresh&#xA;&#x9; &#x9;endif&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;" rules="">
+		   				  <layout id="e92b27b8-c024-50e9-ab46-f0dce8fcf21f" Type="View">		  	
+		   				  			  			
+
+		   	   	<table id="46420854-0781-4cc0-81ba-a1eac436ebf8" controlName="table" class="tableMenu"  > 	
+
+		   	   	   	<row id="a567efab-954e-4be5-aec0-e9d64364c848"  >	
+
+		   	   	   	   	<cell id="40013587-11db-4a77-9a53-561424296b42"  >	
+
+		   	   	   	   	   	<grid id="3fb08dbf-4d71-4123-a774-d465c3c9cc1a" controlName="list"  ControlType="" PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;/Properties&gt;">	
+
+		   	   	   	   	   	   	<table id="b4959b05-ee18-431b-a8cf-15b5cdc20bb8" controlName="table_grid" class="tableTableDetailMain" tableType="Absolute"  > 	
+
+		   	   	   	   	   	   	   	<row id="d4ac19c0-8d30-487f-ad5c-f094fc8043de"  >	
+
+		   	   	   	   	   	   	   	   	<cell id="09650217-e835-44ea-81ee-b337caeecc15" userBottom="100%" userHeight="50dip" userLeft="0%" userRight="0%" userTop="0" userWidth="100%"  >	
+
+		   	   	   	   	   	   	   	   	   	<table id="07d22661-56c0-4f19-8c22-0832679204e5" controlName="table_list"  > 	
+
+		   	   	   	   	   	   	   	   	   	   	<row id="601b2e7f-505a-4ced-9952-99c892370803"  >	
+
+		   	   	   	   	   	   	   	   	   	   	   	<cell id="6d07fbd3-75e1-4f4a-b98e-935898bb3e6d" colSpan="4" hAlign="Left" rowSpan="1" vAlign="Middle"  >	
+
+		   	   	   	   	   	   	   	   	   	   	   	   	<data attribute="&amp;name" class="inputTitle" labelPosition="None"  PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;/Properties&gt;"/>	
+
+		   	   	   	   	   	   	   	   	   	   	   	   		
+
+		   	   	   	   	   	   	   	   	   	   	   	</cell>
+		   	   	   	   	   	   	   	   	   	   	   	<cell id="917af568-040c-49c5-aab9-6e19dadd7e82" colSpan="1" hAlign="Right" rowSpan="1" vAlign="Middle"  >	
+
+		   	   	   	   	   	   	   	   	   	   	   	   	<textblock controlName="statusLabel" caption="Done" class="inputcommon"  />	
+
+		   	   	   	   	   	   	   	   	   	   	   	   		
+
+		   	   	   	   	   	   	   	   	   	   	   	</cell>
+
+		   	   	   	   	   	   	   	   	   	   	</row>
+
+		   	   	   	   	   	   	   	   	   	</table>
+
+		   	   	   	   	   	   	   	   	</cell>
+
+		   	   	   	   	   	   	   	</row>
+
+		   	   	   	   	   	   	</table>
+
+		   	   	   	   	   	</grid>
+
+		   	   	   	   	</cell>
+
+		   	   	   	</row>
+
+		   	   	</table>
+
+
+
+		   						   	<actionBar >	
+
+		   						   	   	<item caption="" image="9fb193d9-64a4-4d30-b129-ff7c76830f7e-ico_thumb" onClickEvent="'changeViewType'" >
+		   						   	   	<action controlName="btn_img" caption="" image="9fb193d9-64a4-4d30-b129-ff7c76830f7e-ico_thumb" onClickEvent="'changeViewType'"  />
+		   						   	   	</item>
+		   						   	   	<item />	
+
+		   						   	   		
+
+		   						   	</actionBar>				
+		   				  </layout>
+		   				  <gridData name="list">
+		   				  <search>
+		   				  	<attribute attribute="&amp;name" /> 
+
+		   				  </search>	
+		   				  </gridData>			  
+		   				</detail>
+		   			  </level>		  
+		   			</instance>]]>
+		   		  </Data>
+		   	      <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+		   	    </PatternPart>                
+		   	  </Part>
+		   	  <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+		   	    <Properties />
+		   	  </Part>
+		   	  <Properties><Property><Name>Name</Name><Value>mainThumb</Value></Property><Property><Name>caption</Name><Value>Tasks list thumb</Value></Property><Property><Name>IsMain</Name><Value>false</Value></Property></Properties>
+		   	</Object>
+		   	<Object parentGuid="c41989bf-cdc6-4cf9-980a-8dff22f1bfa8" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2014-07-24T19:19:17.0000000Z" checksum="1b743a8e39d04d821ec72e6702191567" fullyQualifiedName="main" guid="c41989bf-cdc6-4cf9-980a-8dff22f1bfa8" name="main" type="d82625fd-5892-40b0-99c9-5c8559c197fc" description="main">
+		   	  <Part type="b4378a97-f9b2-4e05-b2f8-c610de258402">        
+		   	    <PatternPart type="a51ced48-7bee-0001-ab12-04e9e32123d1">
+		   	      <Data Pattern="15cf49b5-fc38-4899-91b5-395d02d79889" Version="10.3.6"><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+		   			<instance>
+		   			  <level id="14370231-8720-45d2-8c5b-38571d3c73ae" name="Level">
+		   			  	<detail variables="&lt;Variables&gt;&lt;/Variables&gt;" events="Event Slide.Start&#xA; &#x9;Composite &#xA;&#x9; &#x9;mainThumb()&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;Event table_home.Tap&#xA; &#x9;Composite &#xA;&#x9; &#x9;mainThumb()&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;" rules="">
+		   				  <layout id="e92b27b8-c024-50e9-ab46-f0dce8fcf21f" Type="View">		  	
+		   				  			  			
+
+		   	   	<table id="9f7a2181-5ddd-4465-bc31-2db50c75c407" controlName="table" class="table.Menu"  > 	
+
+		   	   	   	<row id="335c3dff-82da-4a99-ab93-9b20930908dc"  >	
+
+		   	   	   	   	<cell id="7b105810-eea0-4af8-9941-83ec14d906fe"  >	
+
+		   	   	   	   	</cell>
+
+		   	   	   	</row>
+
+		   	   	</table>
+
+
+		   					
+		   				  </layout>
+		   				  
+		   				</detail>
+		   			  </level>		  
+		   			</instance>]]>
+		   		  </Data>
+		   	      <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+		   	    </PatternPart>                
+		   	  </Part>
+		   	  <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+		   	    <Properties />
+		   	  </Part>
+		   	  <Properties><Property><Name>Name</Name><Value>main</Value></Property><Property><Name>caption</Name><Value>Tasks list</Value></Property><Property><Name>IsMain</Name><Value>true</Value></Property><Property><Name>AndroidAppIcon</Name><Value>9fb193d9-64a4-4d30-b129-ff7c76830f7e-taskIcon</Value></Property><Property><Name>AndroidAppWelcomeImage</Name><Value>9fb193d9-64a4-4d30-b129-ff7c76830f7e-lunchimageTaskManager</Value></Property><Property><Name>AppTitle</Name><Value>Task Manager</Value></Property></Properties>
+		   	</Object>
+		   	<Object parentGuid="8f54e083-bca3-425c-bdba-5c96f7a3416b" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2014-07-24T19:19:17.0000000Z" checksum="1b743a8e39d04d821ec72e6702191567" fullyQualifiedName="TaskDetail" guid="8f54e083-bca3-425c-bdba-5c96f7a3416b" name="TaskDetail" type="d82625fd-5892-40b0-99c9-5c8559c197fc" description="TaskDetail">
+		   	  <Part type="b4378a97-f9b2-4e05-b2f8-c610de258402">        
+		   	    <PatternPart type="a51ced48-7bee-0001-ab12-04e9e32123d1">
+		   	      <Data Pattern="15cf49b5-fc38-4899-91b5-395d02d79889" Version="10.3.6"><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+		   			<instance>
+		   			  <level id="14370231-8720-45d2-8c5b-38571d3c73ae" name="Level">
+		   			  	<detail variables="&lt;Variables&gt;&lt;Variable Id=&quot;10&quot; Name=&quot;id&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;id&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;bas:Numeric&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;NUMERIC&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;11&quot; Name=&quot;name&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;name&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;bas:Character&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;CHARACTER&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;12&quot; Name=&quot;status&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;status&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;bas:Boolean&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;BOOLEAN&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;13&quot; Name=&quot;imagen&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;imagen&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;bas:Image&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;IMAGE&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;14&quot; Name=&quot;request&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;request&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;ext:HttpClient&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;HTTPCLIENT&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;15&quot; Name=&quot;TaskDetail_sdtError&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;TaskDetail_sdtError&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;sdt:TaskDetail_sdtError&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;GX_SDT&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;Variable Id=&quot;16&quot; Name=&quot;rsValue&quot;&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Name&lt;/Name&gt;&lt;Value&gt;rsValue&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;ATTCUSTOMTYPE&lt;/Name&gt;&lt;Value&gt;bas:Character&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Length&lt;/Name&gt;&lt;Value&gt;100&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;OBJ_TYPE&lt;/Name&gt;&lt;Value&gt;id_OTYPE_VAR&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;Type&lt;/Name&gt;&lt;Value&gt;CHARACTER&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Variable&gt;&lt;/Variables&gt;" events="Event refresh&#xA; &#x9;Composite &#xA;&#x9; &#x9;msg(&amp;name)&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;Event start&#xA; &#x9;Composite &#xA;&#x9; &#x9;msg(&amp;id)&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;Event &apos;save&apos;&#xA; &#x9;Composite &#xA;&#x9; &#x9;ProgressIndicator.Show()&#xA;&#x9; &#x9;TaskDetail_save(&amp;imagen,&amp;status,&amp;name,&amp;id,&amp;rsValue)&#xA;&#x9; &#x9;ProgressIndicator.Hide()&#xA;&#x9; &#x9;main()&#xA;&#x9;EndComposite &#xA;EndEvent &#xA; &#xA;" rules="parm(in:&amp;id,in:&amp;name,in:&amp;status);">
+		   				  <layout id="e92b27b8-c024-50e9-ab46-f0dce8fcf21f" Type="View">		  	
+		   				  			  			
+
+		   	   	<table id="049b22fa-2262-4f48-89c5-58f476baef8d" controlName="table" class="tablebackground"  > 	
+
+		   	   	   	<row id="c02e0deb-778d-4eed-9a51-943e925e1066"  >	
+
+		   	   	   	   	<cell id="011329bf-72d6-42a4-ba2f-64ea941503f3"  >	
+
+		   	   	   	   	   	<table id="c9c21fbf-5389-4ab0-ad06-1110e9a0171c" controlName="table_form" class="tableforms" height="90%" rowsStyle="76dip;76dip;76dip"  > 	
+
+		   	   	   	   	   	   	<row id="f7ec2d55-85e3-48a7-bb94-1fb19c00dd83"  >	
+
+		   	   	   	   	   	   	   	<cell id="7ecc6663-ec1e-4f2a-899f-d0a12151a28d"  >	
+
+		   	   	   	   	   	   	   	   	<data attribute="&amp;id" labelPosition="None"  PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;/Properties&gt;"/>	
+
+		   	   	   	   	   	   	   	   		
+
+		   	   	   	   	   	   	   	</cell>
+
+		   	   	   	   	   	   	</row>
+		   	   	   	   	   	   	<row id="78f330e0-d506-47b1-9916-2dee5d89213b"  >	
+
+		   	   	   	   	   	   	   	<cell id="5d25b938-25f3-4aa1-b2dd-50ac38e90fe4"  >	
+
+		   	   	   	   	   	   	   	   	<data attribute="&amp;name" labelPosition="None"  PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;/Properties&gt;"/>	
+
+		   	   	   	   	   	   	   	   		
+
+		   	   	   	   	   	   	   	</cell>
+
+		   	   	   	   	   	   	</row>
+		   	   	   	   	   	   	<row id="095a8051-0641-44b3-950c-f90fee683999"  >	
+
+		   	   	   	   	   	   	   	<cell id="bc91d534-d7bf-40f5-b8b0-73e8f9c5aa6f"  >	
+
+		   	   	   	   	   	   	   	   	<data attribute="&amp;imagen" labelPosition="None"  PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;/Properties&gt;"/>	
+
+		   	   	   	   	   	   	   	   		
+
+		   	   	   	   	   	   	   	</cell>
+
+		   	   	   	   	   	   	</row>
+		   	   	   	   	   	   	<row id="d35dd442-16eb-4187-9856-63bfa18194c4"  >	
+
+		   	   	   	   	   	   	   	<cell id="8d7ad0f7-9c2b-4b6c-9a0d-369b9e98bcc7"  >	
+
+		   	   	   	   	   	   	   	   	<data attribute="&amp;status" labelCaption="Status" labelPosition="Left"  PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;/Properties&gt;"/>	
+
+		   	   	   	   	   	   	   	   		
+
+		   	   	   	   	   	   	   	</cell>
+
+		   	   	   	   	   	   	</row>
+
+		   	   	   	   	   	</table>
+
+		   	   	   	   	</cell>
+
+		   	   	   	</row>
+		   	   	   	<row id="70ed0782-7bc9-430c-8931-21b65c3f1c6a"  >	
+
+		   	   	   	   	<cell id="25f2712d-af3f-47fd-8212-61636b47193b" colSpan="1" hAlign="Center" rowSpan="1" vAlign="Bottom"  >	
+
+		   	   	   	   	   	<table id="1d7c53ef-ad62-4eb1-8fbb-372b4e9af805" controlName="table_button" height="10%"  > 	
+
+		   	   	   	   	   	   	<row id="10ebc143-58ea-433c-ace8-0b7e0baf28e7"  >	
+
+		   	   	   	   	   	   	   	<cell id="4a611792-be2b-4901-84fd-b1dd1b24dd42"  >	
+
+		   	   	   	   	   	   	   	   	<action controlName="btn_save" caption="Save" class="buttonform" onClickEvent="'save'"  />	
+
+		   	   	   	   	   	   	   	   		
+
+		   	   	   	   	   	   	   	</cell>
+
+		   	   	   	   	   	   	</row>
+
+		   	   	   	   	   	</table>
+
+		   	   	   	   	</cell>
+
+		   	   	   	</row>
+
+		   	   	</table>
+
+
+		   					
+		   				  </layout>
+		   				  
+		   				</detail>
+		   			  </level>		  
+		   			</instance>]]>
+		   		  </Data>
+		   	      <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+		   	    </PatternPart>                
+		   	  </Part>
+		   	  <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+		   	    <Properties />
+		   	  </Part>
+		   	  <Properties><Property><Name>Name</Name><Value>TaskDetail</Value></Property><Property><Name>caption</Name><Value>Task Detail</Value></Property><Property><Name>IsMain</Name><Value>false</Value></Property></Properties>
+		   	</Object>
+	<Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2015-05-08T20:25:30.0000000Z" checksum="e9bd986b0e91550aac2db481d88cbf45" fullyQualifiedName="mainThumb_struct" guid="" name="mainThumb_struct" type="447527b5-9210-4523-898b-5dccb17be60a" description="mainThumb_struct">
+	  <Part type="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
+	  <Level Name="mainThumb_struct">
+	    <LevelInfo guid="5aa4ac80-8da2-4fa2-96b0-c9862c6deb8e" name="mainThumb_struct" description="mainThumb_struct">
+	      <Properties><Property><Name>Name</Name><Value>mainThumb_struct</Value></Property><Property><Name>AttCollection</Name><Value>true</Value></Property></Properties>
+	    </LevelInfo>
+	    <Item guid="13e83926-9843-4f2e-8a33-6a8d7658489c" name="ID" description="ID">
+	      <Properties><Property><Name>Name</Name><Value>ID</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Numeric</Value></Property><Property><Name>Length</Name><Value>6</Value></Property></Properties>
+	    </Item><Item guid="eb8322b1-d474-4bd3-b2c3-1c0213dba48f" name="TASK" description="TASK">
+	      <Properties><Property><Name>Name</Name><Value>TASK</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>150</Value></Property></Properties>
+	    </Item><Item guid="07f906bb-bf39-473e-8191-4f984834e72b" name="STATUS" description="STATUS">
+	      <Properties><Property><Name>Name</Name><Value>STATUS</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Numeric</Value></Property><Property><Name>Length</Name><Value>1</Value></Property></Properties>
+	    </Item>
+	  </Level>  
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>
+	  <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+	    <Properties />
+	  </Part>
+	  <Properties><Property><Name>Name</Name><Value>mainThumb_struct</Value></Property></Properties>
+	</Object><Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2015-05-08T20:25:30.0000000Z" checksum="e9bd986b0e91550aac2db481d88cbf45" fullyQualifiedName="mainThumb_sdtError" guid="" name="mainThumb_sdtError" type="447527b5-9210-4523-898b-5dccb17be60a" description="mainThumb_sdtError">
+	  <Part type="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
+	  <Level Name="mainThumb_sdtError">
+	    <LevelInfo guid="51cf3d94-d48f-4dc9-9755-3b3138781db2" name="mainThumb_sdtError" description="mainThumb_sdtError">
+	      <Properties><Property><Name>Name</Name><Value>mainThumb_sdtError</Value></Property><Property><Name>AttCollection</Name><Value>false</Value></Property></Properties>
+	    </LevelInfo>
+	    <Item guid="44d62c86-a2d7-4a07-b700-e009e141fdd8" name="response" description="response">
+	      <Properties><Property><Name>Name</Name><Value>response</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>100</Value></Property></Properties>
+	    </Item>
+	  </Level>  
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>
+	  <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+	    <Properties />
+	  </Part>
+	  <Properties><Property><Name>Name</Name><Value>mainThumb_sdtError</Value></Property></Properties>
+	</Object><Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2015-05-08T20:25:30.0000000Z" checksum="e9bd986b0e91550aac2db481d88cbf45" fullyQualifiedName="TaskDetail_sdtError" guid="" name="TaskDetail_sdtError" type="447527b5-9210-4523-898b-5dccb17be60a" description="TaskDetail_sdtError">
+	  <Part type="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
+	  <Level Name="TaskDetail_sdtError">
+	    <LevelInfo guid="1ee3584e-e6c1-47b1-b82c-5517e6579939" name="TaskDetail_sdtError" description="TaskDetail_sdtError">
+	      <Properties><Property><Name>Name</Name><Value>TaskDetail_sdtError</Value></Property><Property><Name>AttCollection</Name><Value>false</Value></Property></Properties>
+	    </LevelInfo>
+	    <Item guid="f6327b73-d565-4caa-b25c-376ce9d801b4" name="response" description="response">
+	      <Properties><Property><Name>Name</Name><Value>response</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>100</Value></Property></Properties>
+	    </Item>
+	  </Level>  
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>
+	  <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+	    <Properties />
+	  </Part>
+	  <Properties><Property><Name>Name</Name><Value>TaskDetail_sdtError</Value></Property></Properties>
+	</Object>
+	<Object parentGuid="00000000-0000-0000-0000-000000000000" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2015-02-11T15:58:40.0000000Z" checksum="02fc343858011d05f89312f8ee121c9a" server_checksum="" fullyQualifiedName="Android" guid="c461187e-b960-40c1-b9fb-49e8bf47bf31" name="Android" type="c804fdbd-7c0b-440d-8527-4316c92649a6" description="Android">
+	  <BaseImagePath />
+	  <TemplateName />
+	  <Part type="c31007a6-01d3-4788-95b3-425921d47758">
+	    <KmwSchemaVersion>3</KmwSchemaVersion>
+	    <PredefinedTypes><Type ID='Application'><Default>Application</Default></Type><Type ID='ApplicationBars'><Default>ApplicationBars</Default></Type><Type ID='Attribute'><Default>Attribute</Default></Type><Type ID='Button'><Default>Button</Default></Type><Type ID='Dashboard'><Default>Dashboard</Default></Type><Type ID='DashboardOption'><Default>DashboardOption</Default></Type><Type ID='Form'><Default>Form</Default></Type><Type ID='Grid'><Default>Grid</Default></Type><Type ID='GridRow'><Default>GridRow</Default></Type><Type ID='Group'><Default>Group</Default></Type><Type ID='GroupSeparator'><Default>GroupSeparator</Default></Type><Type ID='HorizontalLine'><Default>HorizontalLine</Default></Type><Type ID='Image'><Default>Image</Default></Type><Type ID='Tab'><Default>Tab</Default></Type><Type ID='TabPage'><Default>TabPage</Default></Type><Type ID='Table'><Default>Table</Default></Type><Type ID='TextBlock'><Default>TextBlock</Default></Type></PredefinedTypes>        
+	    <Styles>
+		  <GxClass Name="ApplicationBars" Description="" Guid="e491bf8e-9593-49be-8930-914752212ee1">
+		    <Properties>
+		    	<background_color>#18be9c</background_color>
+		    	<status_bar_color>#24d5b2</status_bar_color>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="Buttonform" Description="" Guid="b658c9d2-eeaa-4f27-a1ee-720af0056d10">
+		    <Properties>
+		    	<background_color>#FFFFFF</background_color>
+		    	<sd_border_color>#18be9c</sd_border_color>
+		    	<sd_border_radius>5dip</sd_border_radius>
+		    	<sd_border_style>Solid</sd_border_style>
+		    	<sd_border_width>1dip</sd_border_width>
+		    	<sd_font_size>17</sd_font_size>
+		    	<sd_font_weight>bold</sd_font_weight>
+		    	<color>#18be9c</color>
+		    	<sd_margin_left>8dip</sd_margin_left>
+		    	<sd_margin_right>8dip</sd_margin_right>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="ImageMenu" Description="" Guid="2ad93541-10c4-4d4c-8c8e-7c02d0880a6b">
+		    <Properties>
+		    	<sd_height>34dip</sd_height>
+		    	<sd_margin_right>5dip</sd_margin_right>
+		    	<sd_content_mode>scaleToFill</sd_content_mode>
+		    	<sd_width>34dip</sd_width>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="Inputcheck" Description="" Guid="afc0b6dc-75d1-400e-8f3c-76a4089d9296">
+		    <Properties>
+		    	<sd_border_color>#D8D8D8</sd_border_color>
+		    	<sd_border_radius>1dip</sd_border_radius>
+		    	<sd_border_style>Solid</sd_border_style>
+		    	<sd_border_width>1dip</sd_border_width>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="Inputcommon" Description="" Guid="a3574459-47ce-4d90-9407-921af8704b49">
+		    <Properties>
+		    	<sd_font_family>Roboto-Light.ttf</sd_font_family>
+		    	<sd_font_size>10</sd_font_size>
+		    	<color>#2a2a2a</color>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="Inputform" Description="" Guid="21d32204-690b-47c5-8128-9fb6413e413e">
+		    <Properties>
+		    	<color>#2a2a2a</color>
+		    	<sd_margin_bottom>10dip</sd_margin_bottom>
+		    	<sd_margin_top>10dip</sd_margin_top>
+		    	<sd_padding_left>5dip</sd_padding_left>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="Inputtitle" Description="" Guid="967f8ad3-9d94-4bff-be5a-be648290b674">
+		    <Properties>
+		    	<background_color>#FFFFFF</background_color>
+		    	<sd_font_family>Roboto-Light.ttf</sd_font_family>
+		    	<sd_font_size>15</sd_font_size>
+		    	<sd_font_weight>bold</sd_font_weight>
+		    	<color>#2a2a2a</color>
+		    	<sd_margin_left>5dip</sd_margin_left>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="LabelMenuOption" Description="" Guid="3e997345-cd53-4745-b85f-5acd903a7b2e">
+		    <Properties>
+		    	<background_color></background_color>
+		    	<sd_font_family>Roboto-Regular.ttf</sd_font_family>
+		    	<sd_font_size>17</sd_font_size>
+		    	<color>#ffffff 95%</color>
+		    	<sd_margin_bottom>5dip</sd_margin_bottom>
+		    	<sd_margin_left>5dip</sd_margin_left>
+		    	<sd_margin_right>5dip</sd_margin_right>
+		    	<sd_margin_top>5dip</sd_margin_top>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="TableTableDetailMain" Description="" Guid="01ec2d15-0438-43b7-bac0-225099744e5b">
+		    <Properties>
+		    	<background_color>#FFFFFF</background_color>
+		    	<sd_border_color>#D8D8D8</sd_border_color>
+		    	<sd_border_radius>1dip</sd_border_radius>
+		    	<sd_border_style>Solid</sd_border_style>
+		    	<sd_border_width>1dip</sd_border_width>
+		    	<sd_margin_left>5dip</sd_margin_left>
+		    	<sd_margin_right>5dip</sd_margin_right>
+		    	<sd_margin_top>2dip</sd_margin_top>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="Tablebackground" Description="" Guid="308e4eb8-f458-4379-8622-38d6e48744f3">
+		    <Properties>
+		    	<background_color>#e1e1e1</background_color>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="Tableforms" Description="" Guid="96eb84b6-2e89-4716-91cd-1d992bee0de4">
+		    <Properties>
+		    	<sd_margin_bottom>20dip</sd_margin_bottom>
+		    	<sd_margin_left>10dip</sd_margin_left>
+		    	<sd_margin_right>10dip</sd_margin_right>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  <GxClass Name="Tablemenu" Description="" Guid="b7b4914c-4793-4446-8425-8b20af89824b">
+		    <Properties>
+		    	<background_color>#f3f3f3</background_color>
+
+		    </Properties>
+		    <Styles />
+		    <ResponsiveStyles />
+		  </GxClass>
+		  
+	</Styles>
+	  </Part>
+	  <Part type="43b86e51-163f-44af-ac5a-e101541b1a71">
+	    <Fonts />
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>
+	  <Part type="5d481862-64bc-4e88-8af2-e21c276dab77">
+	    <PaletteColors>
+	      <PaletteColor name="Key Color" color="#94C641" />
+	    </PaletteColors>
+	    <Properties />
+	  </Part>
+	  <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+	    <Properties />
+	  </Part>
+	  <Properties><Property><Name>Name</Name><Value>Android</Value></Property><Property><Name>Description</Name><Value>Android</Value></Property><Property><Name>ThemeType</Name><Value>idSD</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	</Object>    			
+	<Object parentGuid="3d8c26d8-abf1-4e6c-a7dc-93c9750403d2" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2014-09-09T19:08:29.0000000Z" checksum="e0aed704398d4725d3a996d4c13481b4" fullyQualifiedName="mainThumb_delete" guid="3d8c26d8-abf1-4e6c-a7dc-93c9750403d2" name="mainThumb_delete" type="84a12160-f59b-4ad7-a683-ea4481ac23e9" description="">
+	      <Part type="528d1c06-a9c2-420d-bd35-21dca83f12ff">
+	        <Source>
+			</Source>
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>
+	  <Part type="c414ed00-8cc4-4f44-8820-4baf93547173">
+	    <Properties />
+	  </Part>
+	  <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+	  <Source><![CDATA[parm(in:&id,out:&rsValue);
+	]]></Source>
+	  </Part>  
+	  <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+	    <Properties />
+	  </Part>
+	  <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+	      <Variable Id="1" Name="id"><Properties><Property><Name>Name</Name><Value>id</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Numeric</Value></Property><Property><Name>OBJ_TYPE</Name><Value>id_OTYPE_VAR</Value></Property><Property><Name>Type</Name><Value>NUMERIC</Value></Property></Properties></Variable><Variable Id="9" Name="rsValue"><Properties><Property><Name>Name</Name><Value>rsValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>OBJ_TYPE</Name><Value>id_OTYPE_VAR</Value></Property><Property><Name>Type</Name><Value>CHARACTER</Value></Property></Properties></Variable>
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>  
+	  <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+	    <Help>
+	      <HelpItem>
+	        <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-English</Language>
+	        <Content />
+	      </HelpItem>
+	    </Help>
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>
+	  <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+	    <Properties />
+	  </Part>
+	  <Properties><Property><Name>Name</Name><Value>mainThumb_delete</Value></Property><Property><Name>Description</Name><Value></Value></Property><Property><Name>idISPRCWEBSERVICE</Name><Value>True</Value></Property><Property><Name>SOAP</Name><Value>False</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	</Object><Object parentGuid="c5810010-1366-40e4-aae1-32c483da09e8" user="Matias-PC\Matias" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2014-09-09T19:08:29.0000000Z" checksum="e0aed704398d4725d3a996d4c13481b4" fullyQualifiedName="TaskDetail_save" guid="c5810010-1366-40e4-aae1-32c483da09e8" name="TaskDetail_save" type="84a12160-f59b-4ad7-a683-ea4481ac23e9" description="">
+	      <Part type="528d1c06-a9c2-420d-bd35-21dca83f12ff">
+	        <Source>
+			</Source>
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>
+	  <Part type="c414ed00-8cc4-4f44-8820-4baf93547173">
+	    <Properties />
+	  </Part>
+	  <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+	  <Source><![CDATA[parm(in:&imagen,in:&status,in:&name,in:&id,out:&rsValue);
+	]]></Source>
+	  </Part>  
+	  <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+	    <Properties />
+	  </Part>
+	  <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+	      <Variable Id="13" Name="imagen"><Properties><Property><Name>Name</Name><Value>imagen</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Image</Value></Property><Property><Name>OBJ_TYPE</Name><Value>id_OTYPE_VAR</Value></Property></Properties></Variable><Variable Id="12" Name="status"><Properties><Property><Name>Name</Name><Value>status</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property><Property><Name>OBJ_TYPE</Name><Value>id_OTYPE_VAR</Value></Property><Property><Name>Type</Name><Value>BOOLEAN</Value></Property></Properties></Variable><Variable Id="11" Name="name"><Properties><Property><Name>Name</Name><Value>name</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>OBJ_TYPE</Name><Value>id_OTYPE_VAR</Value></Property><Property><Name>Type</Name><Value>CHARACTER</Value></Property></Properties></Variable><Variable Id="10" Name="id"><Properties><Property><Name>Name</Name><Value>id</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Numeric</Value></Property><Property><Name>OBJ_TYPE</Name><Value>id_OTYPE_VAR</Value></Property><Property><Name>Type</Name><Value>NUMERIC</Value></Property></Properties></Variable><Variable Id="16" Name="rsValue"><Properties><Property><Name>Name</Name><Value>rsValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>OBJ_TYPE</Name><Value>id_OTYPE_VAR</Value></Property><Property><Name>Type</Name><Value>CHARACTER</Value></Property></Properties></Variable>
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>  
+	  <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+	    <Help>
+	      <HelpItem>
+	        <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-English</Language>
+	        <Content />
+	      </HelpItem>
+	    </Help>
+	    <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	  </Part>
+	  <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+	    <Properties />
+	  </Part>
+	  <Properties><Property><Name>Name</Name><Value>TaskDetail_save</Value></Property><Property><Name>Description</Name><Value></Value></Property><Property><Name>idISPRCWEBSERVICE</Name><Value>True</Value></Property><Property><Name>SOAP</Name><Value>False</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+	</Object>
+		
+		
+  </Objects>
+  <Attributes />
+  <Dependencies>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="d82625fd-5892-40b0-99c9-5c8559c197fc">
+      <Properties Name="Panel for Smart Devices" PackageName="GeneXus Patterns" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="b4378a97-f9b2-4e05-b2f8-c610de258402">
+      <Properties Name="SDPattern Part" PackageName="GeneXus Patterns" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="babf62c5-0111-49e9-a1c3-cc004d90900a">
+      <Properties Name="Documentation" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="df0eb164-d030-4b53-b022-0ea225fb61d6" Type="Pattern" Id="15cf49b5-fc38-4899-91b5-395d02d79889">
+      <Properties Description="Work With for Smart Devices" Provider="Artech" />
+    </Reference>
+  </Dependencies>
+  <ObjectsIdentityMapping>
+  </ObjectsIdentityMapping>
+</ExportFile>	

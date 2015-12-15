@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.artech.controls.GxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" 
+    android:id="@+id/LinearLayoutDetailfilter"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <!-- Actual Action Bar -->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"
+        ></include>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutLoading"
+        android:orientation="vertical" 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+   <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+    >
+          <LinearLayout
+        android:id="@+id/LinearLayoutData"
+        android:orientation="vertical" 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+   </ScrollView>
+
+	   <LinearLayout
+	                android:id="@+id/buttons"
+	                android:orientation="horizontal"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                style="@android:style/ButtonBar"
+						>
+	                <com.artech.controls.GxButton
+	                        android:id="@+id/formOkButtonDetailFilters"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:layout_weight="50"
+	                        android:text="@string/GXM_button_ok"/>
+	                  <com.artech.controls.GxButton
+	                        android:id="@+id/formCancelButtonDetailFilters"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:layout_weight="50"
+	                        android:text="@string/GXM_cancel"
+	                        />
+	 </LinearLayout>
+</com.artech.controls.GxLinearLayout>
+<!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/layout/detailfilter.xml -->

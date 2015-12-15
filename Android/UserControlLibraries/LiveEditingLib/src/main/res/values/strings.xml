@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_activity_title">Live Editing</string>
+    <string name="pref_category_title">Settings</string>
+    <string name="endpoint_pref_title">Endpoint information</string>
+    <string name="pref_ip_address">IP</string>
+    <string name="pref_port_number">Port</string>
+    <string name="invalid_ip_address">Invalid IP address</string>
+    <string name="invalid_port_number">Invalid port number</string>
+    <string name="connection_established">Live Editing: Connection to IDE established.</string>
+    <string name="connection_failed">Live Editing: Connection to IDE failed.</string>
+    <string name="notification_text">Tap to open the settings.</string>
+    <string name="connecting">Connecting…</string>
+</resources>

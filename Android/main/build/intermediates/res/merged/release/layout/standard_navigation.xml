@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <!-- main content -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        >
+        <!-- Here goes the actual layout -->
+
+    </FrameLayout>
+
+    <!-- just a top control for toolbar position -->
+    <FrameLayout
+        android:id="@+id/toolbarDummyTop"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_alignParentTop="true"
+        >
+    </FrameLayout>
+
+    <!-- Action Bar -->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"
+        >
+
+    </include>
+
+</RelativeLayout>
+<!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/layout/standard_navigation.xml --><!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/main/build/intermediates/exploded-aar/Android/FlexibleClient/unspecified/res/layout/standard_navigation.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Base theme. Can be customized for each API level -->
+  <style name="BaseApplicationTheme" parent="Theme.Genexus.Dark">
+  </style>
+
+  <!-- Application theme -->
+  <style name="ApplicationTheme" parent="BaseApplicationTheme">
+  </style>
+
+  <!-- "No Action Bar" theme variant -->
+  <style name="ApplicationTheme.NoActionBar" parent="ApplicationTheme">
+    <item name="android:windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+  </style>
+
+</resources>

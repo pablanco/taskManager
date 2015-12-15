@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+##### htaccess version 1.0 #####
+
+RewriteRule ^TaskDetail_Level_Detail$ TaskDetail_Level_Detail.php [NC,L]
+RewriteRule ^TaskDetail_save$ TaskDetail_save.php [NC,L]
+RewriteRule ^mainThumb_Level_Detail$ mainThumb_Level_Detail.php [NC,L]
+RewriteRule ^mainThumb_Level_Detail_list$ mainThumb_Level_Detail_list.php [NC,L]
+RewriteRule ^mainThumb_delete$ mainThumb_delete.php [NC,L]
+

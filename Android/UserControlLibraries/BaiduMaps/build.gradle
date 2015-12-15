@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':FlexibleClient')
+    compile files('libs/baidumapapi_v2_1_1.jar')
+}

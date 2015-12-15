@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+	android:id="@+id/chartsLinearLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:id="@+id/linearLayoutHeaderCharts"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	</LinearLayout>    
+	
+	<GridView 
+	    android:id="@+id/gridviewCharts"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:stretchMode="columnWidth"	    
+	    android:listSelector="@android:color/transparent"
+	    android:gravity="center_horizontal|bottom"
+	/>
+		
+ <com.artech.controls.achartengine.GxGraphicalViewControl 
+		android:id="@+id/chartsControlGraphic"
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_weight="1"/>
+         
+    <SeekBar
+	   android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"	   
+	   android:id="@+id/seekBarInCharts"
+	   android:gravity="center"
+	   android:visibility="gone"
+	   android:max="99"
+	   android:progress="50"/>
+	   
+	  
+</LinearLayout>
+</merge>

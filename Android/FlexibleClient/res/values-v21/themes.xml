@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Parents of base styles, with Lollipop customizations.
+         android:dialogTheme reference is necessary to have accent-colored DateTimePickerDialog, and others.
+    -->
+    <style name="Theme.Genexus.Base.Dark" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:dialogTheme">@style/Theme.Genexus.Base.Dark.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.Genexus.Base.Dark.AlertDialog</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.Genexus.Base.Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:dialogTheme">@style/Theme.Genexus.Base.Light.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.Genexus.Base.Light.AlertDialog</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.Genexus.Base.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:dialogTheme">@style/Theme.Genexus.Base.Light.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.Genexus.Base.Light.AlertDialog</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+    </style>
+</resources>

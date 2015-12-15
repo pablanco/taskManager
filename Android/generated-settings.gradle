@@ -1,0 +1,3 @@
+include ':mainThumb'
+gradle.ext.m2RepositoryUrl = '/home/pblanco/Escritorio/commandLine/templates/Android/m2Repository'
+println 'Generated Settings applied.'

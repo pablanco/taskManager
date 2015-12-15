@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="actionBarCustomTheme">
+    </attr>
+    <attr format="reference" name="actionBarPopupCustomTheme">
+    </attr>
+    <attr format="color|reference" name="colorAccentDialog"/>
+    <attr format="enum" name="gx_base_theme">
+		<enum name="Dark" value="0"/>
+		<enum name="Light" value="1"/>
+		<enum name="LightWithDarkActionBar" value="2"/>
+	</attr>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/config.xml -->
+    <eat-comment/>
+    <bool name="animateLayoutChanges">false</bool>
+    <declare-styleable name="ImageGallery"><attr name="android:galleryItemBackground"/></declare-styleable>
+    <declare-styleable name="ScrimInsetsFrameLayout"><attr format="reference|color" name="insetForeground"/></declare-styleable>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="drawer_width">300dp</dimen>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="map_mode" type="id"/>
+    <item name="tab_navigation_tab_content" type="id"/>
+    <item name="tab_navigation_viewpager" type="id"/>
+    <item name="tag_control_definition" type="id"/>
+    <item name="tag_control_name" type="id"/>
+    <item name="tag_control_prompt_info" type="id"/>
+    <item name="tag_control_theme_class" type="id"/>
+    <item name="tag_grid_item_info" type="id"/>
+    <item name="tag_grid_item_view_in_use" type="id"/>
+    <item name="tag_imagemap_item_entity" type="id"/>
+    <item name="tag_imagemap_item_origin" type="id"/>
+    <item name="tag_view_default_style" type="id"/>
+    <item name="tag_view_has_transformation" type="id"/>
+    <item name="tag_view_touch_compat" type="id"/>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/config.xml -->
+    <eat-comment/>
+    <string name="FacebookAppId" translatable="false"/>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="GXM_ApplicationServerError">An error occurred on the application server (%1$s).</string>
+    <string name="GXM_AudioDescription">Audio</string>
+    <string name="GXM_BarcodeScanner">Barcode Scanner</string>
+    <string name="GXM_BarcodeScannerInstallQuestion">\"Barcode Scanner\" is not installed. Install now?</string>
+    <string name="GXM_CallNumber">Call…</string>
+    <string name="GXM_ConvertTo">Convert to\n%1$s</string>
+    <string name="GXM_CouldNotGetLocationInformation">Could not get location information</string>
+    <string name="GXM_DataFiltered">Filter applied (%1$s).</string>
+    <string name="GXM_DataSearched">Search for \'%1$s\'.</string>
+    <string name="GXM_Date">Date</string>
+    <string name="GXM_Deleting">Deleting…</string>
+    <string name="GXM_Downloading">Downloading…</string>
+    <string name="GXM_ErrorLoadingMetadata">An error occurred while loading \'%1$s\'.</string>
+    <string name="GXM_False">False</string>
+    <string name="GXM_Filter">Filter</string>
+    <string name="GXM_FilterAndOrder">Filter and Order</string>
+    <string name="GXM_FilterRange">%1$s - %2$s</string>
+    <string name="GXM_FilterRangeFrom">From %1$s</string>
+    <string name="GXM_FilterRangeTo">Up to %1$s</string>
+    <string name="GXM_Hybrid">Hybrid</string>
+    <string name="GXM_InvalidApplication">Application could not be loaded.\nUri: %1$s\nObject: %2$s</string>
+    <string name="GXM_InvalidDefinition">\'%1$s\' has an invalid definition.</string>
+    <string name="GXM_InvalidEvent">Event cannot be executed.\nCode:\n%1$s</string>
+    <string name="GXM_InvalidHttpMode">Method \'%1$s\' is forbidden for \'%2$s\'.</string>
+    <string name="GXM_InvalidMode">%1$s cannot proceed.\n\n%2$s</string>
+    <string name="GXM_Loading">Loading…</string>
+    <string name="GXM_Locate">Locate…</string>
+    <string name="GXM_LocationServicesAreDisabled">Location services are disabled</string>
+    <string name="GXM_Login">Login</string>
+    <string name="GXM_LoginOk">Logged in</string>
+    <string name="GXM_Logout">Logout</string>
+    <string name="GXM_MyLocation">My Location</string>
+    <string name="GXM_NetworkError">A network error occurred while trying to reach the server (%1$s).</string>
+    <string name="GXM_NewVersionAvailable">New version available</string>
+    <string name="GXM_NewVersionInstallQuestion">There is a new major version available. Do you want to install it?</string>
+    <string name="GXM_No">No</string>
+    <string name="GXM_NoApplicationAvailable">No apps can perform this action.</string>
+    <string name="GXM_NoInternetConnection">No Internet Connection.</string>
+    <string name="GXM_NoLayout">No Layout available.</string>
+    <string name="GXM_NoNext">No next item.</string>
+    <string name="GXM_NoPrevious">No previous item.</string>
+    <string name="GXM_NoScannerAvailable">Barcode Scanner is not installed.</string>
+    <string name="GXM_Now">Now</string>
+    <string name="GXM_Order">Order</string>
+    <string name="GXM_OtherLocation">Other</string>
+    <string name="GXM_OutOfMemory">Not enough memory is available for this operation.</string>
+    <string name="GXM_PleaseWait">Please wait…</string>
+    <string name="GXM_Preferences">Preferences</string>
+    <string name="GXM_ReceivingData">Receiving data</string>
+    <string name="GXM_ReceivingProgress">Receiving in progress</string>
+    <string name="GXM_ReceptionCompleted">Data reception completed</string>
+    <string name="GXM_ReceptionFailed">Data reception failed!</string>
+    <string name="GXM_RecordAudio">Record an Audio</string>
+    <string name="GXM_RecordVideo">Record a Video</string>
+    <string name="GXM_Reset">Reset</string>
+    <string name="GXM_Satellite">Satellite</string>
+    <string name="GXM_Save">Save</string>
+    <string name="GXM_Saving">Saving…</string>
+    <string name="GXM_Scan">Scan</string>
+    <string name="GXM_SelectAudio">Select an Audio…</string>
+    <string name="GXM_SelectImage">Select an Image…</string>
+    <string name="GXM_SelectLocation">Select Location</string>
+    <string name="GXM_SelectMapType">Select Map Type</string>
+    <string name="GXM_SelectVideo">Select a Video…</string>
+    <string name="GXM_SelectedItems">%1$s item(s) selected.</string>
+    <string name="GXM_SendEmail">Send e-mail…</string>
+    <string name="GXM_SendSMS">Send SMS…</string>
+    <string name="GXM_ServerUrl">Server URL</string>
+    <string name="GXM_ServerUrlEmpty">Your server URL is empty.</string>
+    <string name="GXM_ServerUrlIncorrect">Your server URL is incorrect.</string>
+    <string name="GXM_Standard">Standard</string>
+    <string name="GXM_StreamLoading">%1$s (loading)</string>
+    <string name="GXM_StreamPlaying">%1$s (playing)</string>
+    <string name="GXM_TakePhoto">Take a Photo</string>
+    <string name="GXM_TapMapToSelect">Tap the map to select a location.</string>
+    <string name="GXM_TapToPlay">Tap to play.</string>
+    <string name="GXM_Time">Time</string>
+    <string name="GXM_True">True</string>
+    <string name="GXM_TwitterInvalidUsername">Invalid Twitter username</string>
+    <string name="GXM_TwitterNetworkIssue">Network issue occurred</string>
+    <string name="GXM_TwitterOperationError">Twitter operation error</string>
+    <string name="GXM_Unknown">Unknown</string>
+    <string name="GXM_UpdatingApplication">Updating Application…</string>
+    <string name="GXM_Uploading">Uploading…</string>
+    <string name="GXM_UserInfo">User Information</string>
+    <string name="GXM_VideoErrorMsg">Do you want to try with another player?</string>
+    <string name="GXM_VideoErrorTitle">Couldn\'t play video</string>
+    <string name="GXM_ViewInBrowser">View in Browser</string>
+    <string name="GXM_WaitingForLocation">Waiting for location…</string>
+    <string name="GXM_Yes">Yes</string>
+    <string name="GXM_YoutubeError">There was an error initializing the YouTube player (%1$s$s)</string>
+    <string name="GXM_aboutcapt">About</string>
+    <string name="GXM_button_ok">OK</string>
+    <string name="GXM_cancel">Cancel</string>
+    <string name="GXM_captionadd">Insert</string>
+    <string name="GXM_del">Invalid delete, related information in %1$s</string>
+    <string name="GXM_err_details">Details</string>
+    <string name="GXM_errtitle">Error</string>
+    <string name="GXM_getbeforeupd">Please \'Get\' data before trying to update it.</string>
+    <string name="GXM_insert">Insert</string>
+    <string name="GXM_keynfound">Data with the specified key could not be found.</string>
+    <string name="GXM_mbview_next">Next</string>
+    <string name="GXM_mbview_previous">Previous</string>
+    <string name="GXM_mnuconfirm">Confirm</string>
+    <string name="GXM_mnudelete">Delete</string>
+    <string name="GXM_noupdate">Record already exists</string>
+    <string name="GXM_password">Password</string>
+    <string name="GXM_recdel">Data was deleted.</string>
+    <string name="GXM_recdeleted">Error - Record was deleted by another user.</string>
+    <string name="GXM_recins">Data was inserted.</string>
+    <string name="GXM_recupd">Data was updated.</string>
+    <string name="GXM_sucadded">Data has been successfully added.</string>
+    <string name="GXM_sucdeleted">Data has been successfully deleted.</string>
+    <string name="GXM_sucupdated">Data has been successfully updated.</string>
+    <string name="GXM_unexp">An unexpected error has occurred while updating your data. Please try again.</string>
+    <string name="GXM_update">Update</string>
+    <string name="GXM_user">User name</string>
+    <string name="GXM_view">View</string>
+    <string name="GXM_waschg">%1$s was changed.</string>
+    <string name="GX_AllItems">(All)</string>
+    <string name="GX_BtnDelete">Delete</string>
+    <string name="GX_BtnSearch">Search</string>
+    <string name="GX_BtnSelect">Select</string>
+    <string name="GX_TipRefresh">Refresh</string>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/config.xml -->
+    <eat-comment/>
+    <string name="MapsApi" translatable="false">MAPS_GOOGLE_V2</string>
+    <string name="MapsApiKey" translatable="false"/>
+    <string name="TwitterConsumerKey" translatable="false"/>
+    <string name="TwitterConsumerSecret" translatable="false"/>
+    <string name="YoutubeAPIKey" translatable="false"/>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">GeneXus Smart Devices Generator</string>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/config.xml -->
+    <eat-comment/>
+    <string name="ga_trackingId" translatable="false"/>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="Theme.Genexus.Base.Dark" parent="@style/Theme.AppCompat.NoActionBar"/>
+    <style name="Theme.Genexus.Base.Dark.AlertDialog" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">?attr/colorAccentDialog</item>
+    </style>
+    <style name="Theme.Genexus.Base.Dark.Dialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="colorAccent">?attr/colorAccentDialog</item>
+    </style>
+    <style name="Theme.Genexus.Base.Light" parent="@style/Theme.AppCompat.Light.NoActionBar"/>
+    <style name="Theme.Genexus.Base.Light.AlertDialog" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">?attr/colorAccentDialog</item>
+    </style>
+    <style name="Theme.Genexus.Base.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar"/>
+    <style name="Theme.Genexus.Base.Light.Dialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">?attr/colorAccentDialog</item>
+    </style>
+    <style name="Theme.Genexus.Dark" parent="@style/Theme.Genexus.Base.Dark">
+        <item name="gx_base_theme">Dark</item>
+        <item name="dialogTheme">@style/Theme.Genexus.Base.Dark.Dialog</item>
+        <item name="alertDialogTheme">@style/Theme.Genexus.Base.Dark.AlertDialog</item>
+        <item name="colorAccentDialog">@color/accent_material_dark</item>
+
+        <item name="actionBarCustomTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+    <style name="Theme.Genexus.Light" parent="@style/Theme.Genexus.Base.Light">
+        <item name="gx_base_theme">Light</item>
+        <item name="dialogTheme">@style/Theme.Genexus.Base.Light.Dialog</item>
+        <item name="alertDialogTheme">@style/Theme.Genexus.Base.Light.AlertDialog</item>
+        <item name="colorAccentDialog">@color/accent_material_light</item>
+
+        <item name="actionBarCustomTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+    <style name="Theme.Genexus.Light.DarkActionBar" parent="@style/Theme.Genexus.Base.Light.DarkActionBar">
+        <item name="gx_base_theme">LightWithDarkActionBar</item>
+        <item name="dialogTheme">@style/Theme.Genexus.Base.Light.Dialog</item>
+        <item name="alertDialogTheme">@style/Theme.Genexus.Base.Light.AlertDialog</item>
+        <item name="colorAccentDialog">@color/accent_material_light</item>
+        <item name="actionBarCustomTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarPopupCustomTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="colorPrimary">@color/primary_material_dark</item>
+
+    </style>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values/attrs.xml -->
+    <eat-comment/>
+    <style name="Widget.Design.ScrimInsetsFrameLayout" parent="">
+        <item name="insetForeground">#4000</item>
+    </style>
+</resources>

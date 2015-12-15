@@ -1,0 +1,32 @@
+include ':AChartEngine'
+include ':AltBeacon'
+include ':BaiduMaps'
+include ':ChartsLib'
+include ':Facebook'
+include ':GaodeMaps'
+include ':InAppBillingLib'
+include ':LiveEditingLib'
+include ':SimpleKMLLib'
+include ':spinner-library'
+include ':TwitterApi'
+include ':ViewPagersLib'
+include ':WheelsLib'
+include ':FlexibleClient'
+include ':MobFoxAds'
+
+project(':AChartEngine').projectDir = new File('UserControlLibraries/achartengine-read-only/achartengine')
+project(':AltBeacon').projectDir = new File('UserControlLibraries/AltBeacon')
+project(':BaiduMaps').projectDir = new File('UserControlLibraries/BaiduMaps')
+project(':ChartsLib').projectDir = new File('UserControlLibraries/ChartsLib')
+project(':Facebook').projectDir = new File('UserControlLibraries/facebook')
+project(':GaodeMaps').projectDir = new File('UserControlLibraries/GaodeMaps')
+project(':InAppBillingLib').projectDir = new File('UserControlLibraries/InAppBillingLib')
+project(':LiveEditingLib').projectDir = new File('UserControlLibraries/LiveEditingLib')
+project(':SimpleKMLLib').projectDir = new File('UserControlLibraries/SimpleKMLLib')
+project(':spinner-library').projectDir = new File('UserControlLibraries/spinner-library')
+project(':TwitterApi').projectDir = new File('UserControlLibraries/TwitterApi')
+project(':ViewPagersLib').projectDir = new File('UserControlLibraries/ViewPagersLib')
+project(':WheelsLib').projectDir = new File('UserControlLibraries/WheelsLib')
+project(':MobFoxAds').projectDir = new File('UserControlLibraries/MobFoxAds')
+
+println 'Common Settings applied.'

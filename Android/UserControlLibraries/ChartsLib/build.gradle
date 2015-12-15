@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':FlexibleClient')
+    compile project(':AChartEngine')
+}

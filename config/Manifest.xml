@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+    <application generateAndroid="true" generateiOS="false">
+        <main>main.php</main>
+        <baseURL>http://52.34.247.215/frameWorkExamples/taskManager/service/</baseURL>
+    	<android navigationStyle="Default" layoutOrientation="Portrait">   
+    	    <Theme>Android</Theme>     	
+        	<versionCode>1</versionCode>
+        	<versionName>1.0</versionName>
+        	<packagedName></packagedName>
+        	<lunchImage>lunchimageTaskManager.png</lunchImage>
+        	<applicationIcon>taskIcon.png</applicationIcon>        	
+        	<applicationTitle>Task Manager</applicationTitle>
+        </android>
+        <iOS navigationStyle="Default" layoutOrientation="Portrait">
+            <Theme>iOSTheme</Theme>
+        	<versionCode>1</versionCode>
+        	<versionName>1.0</versionName>
+        	<packagedName></packagedName>
+        	<applicationIcon></applicationIcon>
+        </iOS>
+       </application>	
+</manifest>

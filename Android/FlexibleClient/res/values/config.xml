@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MapsApi" translatable="false">MAPS_GOOGLE_V2</string>
+    <string name="MapsApiKey" translatable="false" />
+    <string name="YoutubeAPIKey" translatable="false" />
+    <string name="TwitterConsumerKey" translatable="false" />
+    <string name="TwitterConsumerSecret" translatable="false" />
+    <string name="FacebookAppId" translatable="false" />
+    
+    <string name="ga_trackingId" translatable="false" />
+	
+    <!-- Disabled in Android <= 4.0, since it is causing problems (invisible grids) there. -->
+    <bool name="animateLayoutChanges">false</bool>
+</resources>

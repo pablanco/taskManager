@@ -1,0 +1,9 @@
+apply from: 'common-settings.gradle'
+
+if (file('internal-settings.gradle').exists()) {
+    apply from: 'internal-settings.gradle'
+} else if (file('prototyper-settings.gradle').exists()) {
+	apply from : 'prototyper-settings.gradle'
+} else if (file('generated-settings.gradle').exists()) {
+	apply from : 'generated-settings.gradle'
+}

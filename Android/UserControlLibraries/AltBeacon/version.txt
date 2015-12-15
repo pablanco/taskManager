@@ -1,0 +1,2 @@
+Downloaded from: https://github.com/AltBeacon/android-beacon-library
+on: 27/08/2014

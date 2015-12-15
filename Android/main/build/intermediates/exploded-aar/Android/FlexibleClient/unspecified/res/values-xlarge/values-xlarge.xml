@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/values-xlarge/dimens.xml -->
+    <eat-comment/>
+    <dimen name="drawer_width">320dp</dimen>
+</resources>

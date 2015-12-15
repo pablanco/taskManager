@@ -1,0 +1,7 @@
+<WWSDSpec>
+<Section>
+<Name>Level.Detail</Name>
+<DataProviders>
+<DataProvider>main_Level_Detail</DataProvider> 
+
+</DataProviders></Section></WWSDSpec>

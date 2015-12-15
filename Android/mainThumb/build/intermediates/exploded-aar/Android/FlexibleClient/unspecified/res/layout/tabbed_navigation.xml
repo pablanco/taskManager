@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!-- Action Bar -->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"
+        >
+
+    </include>
+
+    <!-- main content -->
+    <LinearLayout
+        android:id="@+id/content_frame"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        <!-- Here goes the actual layout -->
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/pblanco/Escritorio/pruebas/nuevaPrueba/Android/FlexibleClient/res/layout/tabbed_navigation.xml -->
